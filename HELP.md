@@ -14,12 +14,14 @@ GET "/calculate"
 http://localhost:8080/calculate?averageSalary=90000.00&vacationDays=28  
 Результат:
 
-  ![1](target//1.png)
+  ![1](src/main/resources/static/1.png)
 
   
 - Запрос с указанием точного дня ухода в отпуск:  
 http://localhost:8080/calculate?averageSalary=90000.00&vacationDays=28&startVacationDate=2024-10-15  
 Результат:
-  ![2](target//2.png) 
+  ![2](src/main/resources/static/2.png) 
+  
+  
 
 
